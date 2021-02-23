@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Bender Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bender Regular'), url('fonts/Bender.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bender Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bender Italic'), url('fonts/Bender-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bender Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bender Light'), url('fonts/Bender-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bender Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bender Light Italic'), url('fonts/Bender-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bender Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bender Bold'), url('fonts/Bender-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bender Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bender Bold Italic'), url('fonts/Bender-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bender Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bender Black'), url('fonts/Bender-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bender Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bender Black Italic'), url('fonts/Bender-BlackItalic.woff') format('woff');
+}
