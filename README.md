@@ -1,10 +1,26 @@
 # Tarkov UI
 
-This project is an attempt to demonstrate my solution to Tarkov's cluttered UI while learning React and Styled Components.
+This project is an attempt to demonstrate my solution to Tarkov's cluttered UI while learning React and Styled Components. This project is based on preliminary mockups that are below. These mockups should be used as a starting point and are not meant as a pixel perfect expectation. Screens will be expanded upon or changed beyond these.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Workbench
 
 ![Tarkov Workbench](/_assets/workbench-v2.png?raw=true 'Title')
+
+#### Item Modal Updates
+
+![Ammo Window](/_assets/ammo.png?raw=true 'Title')
+
+![Ammo Window Open](/_assets/ammo-open.png?raw=true 'Title')
+
+![Ammo Window Options](/_assets/ammo-options.png?raw=true 'Title')
+
+#### Home Screen
+
+![Home Screen Interchange](/_assets/home-interchange.png?raw=true 'Title')
+
+![Home Screen Hideout](/_assets/home-hideout.png?raw=true 'Title')
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
