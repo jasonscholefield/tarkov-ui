@@ -4,7 +4,7 @@ This project is an attempt to demonstrate my solution to Tarkov's cluttered UI w
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Tarkov Workbench](relative/path/to/workbench-v2.png?raw=true 'Title')
+![Tarkov Workbench](/_assets/workbench-v2.png?raw=true 'Title')
 
 ## Available Scripts
 
