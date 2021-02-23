@@ -1,12 +1,20 @@
 # Tarkov UI
 
-This project is an attempt to demonstrate my solution to Tarkov's cluttered UI while learning React and Styled Components. This project is based on preliminary mockups that are below. These mockups should be used as a starting point and are not meant as a pixel perfect expectation. Screens will be expanded upon or changed beyond these.
+This project will attempt to demonstrate my solution to Tarkov's cluttered UI while learning React and Styled Components.
+
+This project is based on preliminary mockups that are below. These mockups should be used as a starting point and are not meant as a pixel perfect expectation. Screens will be expanded upon or changed beyond these.
+
+The idea behind these screens is a light redesign. This is **not** an attempt to redesign the entire UI. That may come later on if I pivot to learning how to theme with Styled Components.
 
 #### Workbench
+
+Cleaning up the interface for the workbench to allow for easier use.
 
 ![Tarkov Workbench](/_assets/workbench-v2.png?raw=true 'Title')
 
 #### Item Modal Updates
+
+Taking some information that is gatekeeped in spreadsheets and placing it in tooltips on when relevant.
 
 ![Ammo Window](/_assets/ammo.png?raw=true 'Title')
 
@@ -15,6 +23,8 @@ This project is an attempt to demonstrate my solution to Tarkov's cluttered UI w
 ![Ammo Window Options](/_assets/ammo-options.png?raw=true 'Title')
 
 #### Home Screen
+
+Making the home screen a bit more interesting. The last map you played is featured in the background, possibly as a video. If video is played test with some minor sound clips (Labs alarm noise / voice, Interchange Killa RPK in the distance, Woods Shturman SVD spam, Shoreline beach ambient noise, etc). If you logged on only to collect bitcoins or did not enter a raid then you will see the Hideout screen next time you login.
 
 ![Home Screen Interchange](/_assets/home-interchange.png?raw=true 'Title')
 
