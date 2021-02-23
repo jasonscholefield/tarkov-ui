@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Tarkov UI
+
+This project is an attempt to demonstrate my solution to Tarkov's cluttered UI while learning React and Styled Components.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![Tarkov Workbench](relative/path/to/workbench-v2.png?raw=true 'Title')
 
 ## Available Scripts
 
