@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="test123" transform="translate(100.000000, 100.000000) scale(-1, 1) translate(-100.000000, -100.000000) translate(-145.000000, -145.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#191919" x="145" y="145" width="200" height="200"></rect>
+            <rect id="Rectangle-Copy" fill-opacity="0.15" fill="#FFFFFF" transform="translate(245.178716, 245.178715) rotate(45.000000) translate(-245.178716, -245.178715) " x="210.178716" y="76.1787154" width="70" height="338"></rect>
+            <rect id="Rectangle-Copy-2" fill-opacity="0.15" fill="#FFFFFF" transform="translate(145.000000, 145.000000) rotate(45.000000) translate(-145.000000, -145.000000) " x="110" y="-24" width="70" height="338"></rect>
+            <rect id="Rectangle-Copy-3" fill-opacity="0.15" fill="#FFFFFF" transform="translate(345.000000, 345.000000) rotate(45.000000) translate(-345.000000, -345.000000) " x="310" y="176" width="70" height="338"></rect>
+        </g>
+    </g>
+</svg>

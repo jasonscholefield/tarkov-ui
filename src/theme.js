@@ -15,14 +15,15 @@ const spacing = {
 const colors = {
   black: '#010100',
   black2: '#111212',
-  black3: '#272A2B',
+  black3: '#191B1B',
+  darkGrey: '#272A2B',
   grey: '#686B6B',
   white: '#FFFFFF',
   dirtyWhite: '#E9E3C6',
   green: '#9CD428',
   gold: '#DBB000',
   orange: '#CA8A00',
-  red: '#FF0000',
+  red: '#750000',
 };
 
 export default {
