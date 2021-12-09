@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Search from '../components/icons/Search';
 import Close from '../components/icons/Close';
 import Weight from '../components/icons/Weight';
-import Tac30 from '../images/tac30-cutout.png';
 
 const ItemModalContainer = styled.div`
   background-color: ${theme.colors.black};
@@ -110,18 +109,55 @@ const ItemAction = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 140px;
+  width: 160px;
   padding: 3px 6px;
   background: ${theme.colors.darkGrey};
   margin: 2px;
   color: ${theme.colors.white};
+  text-transform: uppercase;
+  font-size: 13px;
 
   & > Svg {
     margin: 0 6px 0 4px;
   }
 `;
 
-const itemModal = ({ title, weight }) => {
+const ItemStatsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: ${theme.colors.black};
+`;
+
+const ItemStatGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px 0;
+`;
+
+const ItemStat = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  padding: 6px 8px;
+  background: ${theme.colors.darkGrey};
+  margin: 2px;
+  color: ${theme.colors.white};
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+`;
+
+const ItemDescriptionText = styled.div`
+  background-color: ${theme.colors.black};
+  color: white;
+  font-size: 13px;
+  padding: 0 25px 15px;
+`;
+
+const itemModal = ({ title, image, weight }) => {
   return (
     <ItemModalContainer>
       <ItemModalTopBar>
@@ -139,37 +175,68 @@ const itemModal = ({ title, weight }) => {
           </ItemWeight>
         )}
         <ItemModalImage>
-          <img src={Tac30} alt={'item alt text'} />
+          <img src={image} alt={'item alt text'} />
         </ItemModalImage>
       </ItemModalImageContainer>
       <ItemActionsContainer>
         <ItemActionsGrid>
           <ItemAction>
             <Weight size={12} />
-            test
+            Insure
           </ItemAction>
           <ItemAction>
             <Search size={12} />
-            test
+            Filter by Item
           </ItemAction>
           <ItemAction>
             <Weight size={12} />
-            test
+            Linked Search
           </ItemAction>
           <ItemAction>
             <Search size={12} />
-            test
+            Required Search
           </ItemAction>
           <ItemAction>
             <Weight size={12} />
-            test
-          </ItemAction>
-          <ItemAction>
-            <Search size={12} />
-            test
+            Discard
           </ItemAction>
         </ItemActionsGrid>
       </ItemActionsContainer>
+      <ItemStatsContainer>
+        <ItemStatGrid>
+          <ItemStat>
+            <div>Bullet Velocity</div>
+            <div>392 m/s</div>
+          </ItemStat>
+          <ItemStat>
+            <div>Damage</div>
+            <div>52</div>
+          </ItemStat>
+          <ItemStat>
+            <div>Caliber</div>
+            <div>9x19</div>
+          </ItemStat>
+          <ItemStat>
+            <div>Penetration Power</div>
+            <div>30</div>
+          </ItemStat>
+          <ItemStat>
+            <div>Armor Damage</div>
+            <div>48%</div>
+          </ItemStat>
+          <ItemStat>
+            <div>Fragmentation Chance</div>
+            <div>5%</div>
+          </ItemStat>
+          <ItemStat>
+            <div>Ricochet Chance</div>
+            <div>20%</div>
+          </ItemStat>
+        </ItemStatGrid>
+      </ItemStatsContainer>
+      <ItemDescriptionText>
+        <p>9x19 mm AP 6.3 round.</p>
+      </ItemDescriptionText>
     </ItemModalContainer>
   );
 };
